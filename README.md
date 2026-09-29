@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.svg" alt="Rodrigo Tabaldi — Software Engineering Student | Backend Developer | .NET & Full Stack" width="100%" />
+  <img src="banner.svg" alt="Rodrigo Tabaldi — Software Engineer | Backend Developer | .NET & Full Stack" width="100%" />
 </div>
 
 <div align="center">
@@ -10,7 +10,7 @@
 
 ### Sobre mim
 
-Sou estudante de Engenharia de Software e desenvolvedor com foco em backend e tecnologias .NET. Também estudo desenvolvimento full stack e gosto de criar soluções claras, bem estruturadas e úteis.
+Sou desenvolvedor de software e engenheiro de software, com foco em backend e tecnologias .NET. Também trabalho com desenvolvimento full stack e gosto de criar soluções claras, bem estruturadas e úteis.
 
 ---
 
@@ -18,7 +18,7 @@ Sou estudante de Engenharia de Software e desenvolvedor com foco em backend e te
 
 ### About me
 
-I am a Software Engineering student focused on backend development and .NET technologies. I also study full stack development and enjoy building clear, well-structured, useful solutions.
+I am a software developer and software engineer focused on backend development and .NET technologies. I also work across the full stack and enjoy building clear, well-structured, useful solutions.
 
 ## Tecnologias | Tech Stack
 
@@ -33,3 +33,7 @@ I am a Software Engineering student focused on backend development and .NET tech
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
+
+## Contato | Contact
+
+<a href="mailto:rodrigotabaldi01@gmail.com">rodrigotabaldi01@gmail.com</a>
