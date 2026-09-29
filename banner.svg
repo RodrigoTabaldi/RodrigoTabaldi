@@ -1,81 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-labelledby="title description">
-  <title id="title">Rodrigo Tabaldi — Software Engineer and Backend Developer</title>
-  <desc id="description">Animated dark professional banner with a subtle network diagram and software technologies.</desc>
+  <title id="title">Rodrigo Tabaldi | Software Engineer | Backend, Full Stack, .NET</title>
+  <desc id="description">A refined dark animated profile banner with a quiet software architecture diagram.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#090D14"/>
-      <stop offset="1" stop-color="#101927"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080D16"/><stop offset=".58" stop-color="#0B1320"/><stop offset="1" stop-color="#101D2D"/>
     </linearGradient>
-    <linearGradient id="accent" x1="690" y1="70" x2="1190" y2="270" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#60A5FA" stop-opacity=".08"/>
-      <stop offset=".55" stop-color="#60A5FA" stop-opacity=".48"/>
-      <stop offset="1" stop-color="#93C5FD" stop-opacity=".15"/>
+    <linearGradient id="edge" x1="735" y1="58" x2="1200" y2="274" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B9BFA" stop-opacity=".05"/><stop offset=".5" stop-color="#77B5FF" stop-opacity=".52"/><stop offset="1" stop-color="#5B9BFA" stop-opacity=".12"/>
     </linearGradient>
-    <linearGradient id="rule" x1="80" y1="0" x2="570" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    <linearGradient id="line" x1="78" y1="0" x2="617" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#74B2FF"/><stop offset=".74" stop-color="#4688EA" stop-opacity=".32"/><stop offset="1" stop-color="#4688EA" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="matrix(465 0 0 205 966 148)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1D4ED8" stop-opacity=".12"/>
-      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/>
+    <radialGradient id="haze" cx="0" cy="0" r="1" gradientTransform="matrix(430 0 0 220 1034 158)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2763B9" stop-opacity=".16"/><stop offset="1" stop-color="#2763B9" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity=".055" stroke-width="1"/>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#9BB7D6" stroke-opacity=".045"/>
     </pattern>
-    <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="softGlow" x="-400%" y="-400%" width="900%" height="900%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="clip"><rect width="1280" height="320" rx="18"/></clipPath>
+    <clipPath id="frame"><rect width="1280" height="320" rx="16"/></clipPath>
   </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" fill="url(#bg)"/>
+    <rect width="1280" height="320" fill="url(#haze)"/>
+    <path d="M690 0H1280V320H690Z" fill="url(#grid)"/>
 
-  <g clip-path="url(#clip)">
-    <rect width="1280" height="320" fill="url(#background)"/>
-    <rect width="1280" height="320" fill="url(#ambient)"/>
-    <rect x="682" y="0" width="598" height="320" fill="url(#grid)" opacity=".7"/>
+    <!-- Subtle architecture flow: API to services to persistent data. -->
+    <g stroke="url(#edge)" stroke-width="1.4">
+      <path d="M786 132H876M1024 132H1100"/>
+      <path d="M950 92V63H1139V92M950 172V205H1139V172"/>
+      <path d="M1174 132H1210V226H1174" stroke-dasharray="3 7"/>
+    </g>
+    <g fill="#0C1726" stroke="#75ADFA" stroke-opacity=".46">
+      <rect x="744" y="104" width="142" height="56" rx="10"/>
+      <rect x="921" y="104" width="142" height="56" rx="10"/>
+      <rect x="1098" y="104" width="142" height="56" rx="10"/>
+    </g>
+    <g fill="#8DBEFF">
+      <circle cx="769" cy="132" r="4"/><circle cx="946" cy="132" r="4"/><circle cx="1123" cy="132" r="4"/>
+    </g>
+    <g fill="#E4EDF8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.05">
+      <text x="782" y="137">API</text>
+      <text x="959" y="137">SERVICES</text>
+      <text x="1136" y="137">DATA</text>
+    </g>
+    <g fill="#8EA4BE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" letter-spacing="1.45">
+      <text x="744" y="91">APPLICATION LAYER</text>
+      <text x="1098" y="91">PERSISTENCE</text>
+      <text x="924" y="226">CLEAR BOUNDARIES · RELIABLE SYSTEMS</text>
+    </g>
+    <g fill="#84B9FF" filter="url(#softGlow)">
+      <circle r="2.7"><animateMotion dur="5s" repeatCount="indefinite" path="M786 132H876"/><animate attributeName="opacity" values="0;.85;.85;0" keyTimes="0;.1;.86;1" dur="5s" repeatCount="indefinite"/></circle>
+      <circle r="2.7"><animateMotion dur="5s" begin="-2.5s" repeatCount="indefinite" path="M1024 132H1100"/><animate attributeName="opacity" values="0;.85;.85;0" keyTimes="0;.1;.86;1" dur="5s" begin="-2.5s" repeatCount="indefinite"/></circle>
+      <circle r="2.5"><animateMotion dur="6s" begin="-3s" repeatCount="indefinite" path="M1100 132H1024"/><animate attributeName="opacity" values="0;.75;.75;0" keyTimes="0;.1;.86;1" dur="6s" begin="-3s" repeatCount="indefinite"/></circle>
+      <circle r="2.5"><animateMotion dur="6s" begin="-1s" repeatCount="indefinite" path="M876 132H786"/><animate attributeName="opacity" values="0;.75;.75;0" keyTimes="0;.1;.86;1" dur="6s" begin="-1s" repeatCount="indefinite"/></circle>
+    </g>
+    <g fill="#87B8F6">
+      <circle cx="950" cy="63" r="2"><animate attributeName="opacity" values=".2;.8;.2" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="1139" cy="205" r="2"><animate attributeName="opacity" values=".8;.25;.8" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="1210" cy="226" r="2"><animate attributeName="opacity" values=".25;.7;.25" dur="4.5s" repeatCount="indefinite"/></circle>
+    </g>
 
-    <!-- Quiet network diagram in the right half keeps the copy clear. -->
-    <g stroke="url(#accent)" stroke-width="1.25">
-      <path d="M742 85H840L900 135H1003L1060 88H1178"/>
-      <path d="M793 230H886L946 184H1050L1110 235H1210"/>
-      <path d="M840 85V142L886 184V230"/>
-      <path d="M1003 135V184"/>
-      <path d="M1060 88V145L1050 184"/>
-      <path d="M1178 88V164L1210 192V235"/>
-      <path d="M742 85V160L793 210V230"/>
-      <path d="M900 135L946 184" stroke-dasharray="3 7"/>
-    </g>
-    <g fill="#0D1726" stroke="#60A5FA" stroke-opacity=".68" stroke-width="1.4">
-      <rect x="733" y="76" width="18" height="18" rx="5"/>
-      <rect x="831" y="76" width="18" height="18" rx="5"/>
-      <circle cx="900" cy="135" r="5"/><rect x="994" y="126" width="18" height="18" rx="5"/>
-      <circle cx="1060" cy="88" r="5"/><circle cx="1178" cy="88" r="5"/>
-      <circle cx="793" cy="230" r="5"/><rect x="878" y="221" width="18" height="18" rx="5"/>
-      <circle cx="946" cy="184" r="5"/><circle cx="1050" cy="184" r="5"/>
-      <rect x="1101" y="226" width="18" height="18" rx="5"/><circle cx="1210" cy="235" r="5"/>
-    </g>
-    <g fill="#93C5FD" filter="url(#glow)">
-      <circle r="2.6">
-        <animateMotion dur="8s" repeatCount="indefinite" path="M742 85H840L900 135H1003L1060 88H1178"/>
-        <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.08;.82;1" dur="8s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="2.4">
-        <animateMotion dur="10s" begin="-4s" repeatCount="indefinite" path="M1210 235H1110L1050 184H946L886 230H793"/>
-        <animate attributeName="opacity" values="0;.8;.8;0" keyTimes="0;.08;.82;1" dur="10s" begin="-4s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-    <g fill="#93C5FD">
-      <circle cx="900" cy="135" r="3"><animate attributeName="opacity" values=".35;.9;.35" dur="4s" repeatCount="indefinite"/></circle>
-      <circle cx="1050" cy="184" r="3"><animate attributeName="opacity" values=".8;.3;.8" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="1178" cy="88" r="2.5"><animate attributeName="opacity" values=".25;.85;.25" dur="4.6s" repeatCount="indefinite"/></circle>
-    </g>
-    <path d="M80 65V255" stroke="#60A5FA" stroke-opacity=".62" stroke-width="2"/>
-    <text x="104" y="135" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="47" font-weight="650" letter-spacing="-1.7">Rodrigo Tabaldi</text>
-    <text x="105" y="174" fill="#AFC0D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="450" letter-spacing=".2">Software Engineer  |  Backend Developer  |  .NET &amp; Full Stack</text>
-    <rect x="105" y="196" width="450" height="1" fill="url(#rule)"/>
-    <text x="105" y="226" fill="#8294AA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing=".25">C#  ·  .NET  ·  ASP.NET Core  ·  Python  ·  React  ·  TypeScript</text>
-    <text x="105" y="250" fill="#8294AA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing=".25">PostgreSQL  ·  Docker  ·  Git</text>
-    <path d="M0 1H1280" stroke="#94A3B8" stroke-opacity=".13"/>
-    <path d="M0 319H1280" stroke="#94A3B8" stroke-opacity=".13"/>
+    <path d="M78 72V250" stroke="#69A8FA" stroke-opacity=".72" stroke-width="2"/>
+    <text x="105" y="132" fill="#F3F7FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="49" font-weight="650" letter-spacing="-1.8">Rodrigo Tabaldi</text>
+    <text x="107" y="170" fill="#A9B9CD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing=".2">Software Engineer  ·  Backend &amp; Full Stack  ·  .NET</text>
+    <rect x="107" y="193" width="500" height="1" fill="url(#line)"/>
+    <text x="107" y="224" fill="#98A9BE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="500" letter-spacing=".22">C#  ·  .NET  ·  ASP.NET Core  ·  PostgreSQL</text>
+    <text x="107" y="247" fill="#71859E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="450" letter-spacing=".2">Python  ·  React  ·  TypeScript  ·  Docker  ·  Git</text>
+    <path d="M0 1H1280M0 319H1280" stroke="#A6BCD5" stroke-opacity=".11"/>
   </g>
 </svg>
