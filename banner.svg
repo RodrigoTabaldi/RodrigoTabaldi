@@ -24,37 +24,30 @@
     <rect width="1200" height="320" fill="url(#blueGlow)"/>
     <path d="M725 0H1200V320H725Z" fill="url(#grid)"/>
 
-    <!-- Quiet network details stay behind the type. -->
-    <g stroke="#6EA8F0" stroke-opacity=".23" stroke-width="1.2">
-      <path d="M776 78H882L931 120H1042L1092 83H1172"/>
-      <path d="M800 247H900L956 201H1066L1120 247H1180"/>
-      <path d="M882 78V155L900 173V247M1042 120V166L1066 183V201M1172 83V162L1180 177V247"/>
-      <path d="M931 120L956 201" stroke-dasharray="2 7"/>
+    <!-- Abstract network lines add motion without tiny labels or UI-like details. -->
+    <g stroke="#6EA8F0" stroke-opacity=".24" stroke-width="1.5">
+      <path d="M746 102H855L925 160H1036L1104 104H1180"/>
+      <path d="M746 218H855L925 160H1036L1104 216H1180"/>
+      <path d="M855 102V218M1036 104V216M1104 104V216"/>
     </g>
-    <g fill="#0A1421" stroke="#80B5F6" stroke-opacity=".48" stroke-width="1.3">
-      <circle cx="776" cy="78" r="4"/><circle cx="882" cy="78" r="4"/>
-      <circle cx="931" cy="120" r="4"/><circle cx="1042" cy="120" r="4"/>
-      <circle cx="1092" cy="83" r="4"/><circle cx="1172" cy="83" r="4"/>
-      <circle cx="800" cy="247" r="4"/><circle cx="900" cy="247" r="4"/>
-      <circle cx="956" cy="201" r="4"/><circle cx="1066" cy="201" r="4"/>
-      <circle cx="1120" cy="247" r="4"/><circle cx="1180" cy="247" r="4"/>
+    <g fill="#0A1421" stroke="#8ABAF5" stroke-opacity=".58" stroke-width="1.5">
+      <circle cx="746" cy="102" r="5"/><circle cx="855" cy="102" r="5"/>
+      <circle cx="925" cy="160" r="5"/><circle cx="1036" cy="160" r="5"/>
+      <circle cx="1104" cy="104" r="5"/><circle cx="1180" cy="104" r="5"/>
+      <circle cx="746" cy="218" r="5"/><circle cx="855" cy="218" r="5"/>
+      <circle cx="1104" cy="216" r="5"/><circle cx="1180" cy="216" r="5"/>
     </g>
-    <g fill="#9CCAFF" filter="url(#softGlow)">
-      <circle r="2.4"><animateMotion dur="9s" repeatCount="indefinite" path="M776 78H882L931 120H1042L1092 83H1172"/><animate attributeName="opacity" values="0;.85;.85;0" keyTimes="0;.1;.88;1" dur="9s" repeatCount="indefinite"/></circle>
-      <circle r="2.2"><animateMotion dur="10s" begin="-5s" repeatCount="indefinite" path="M1180 247H1120L1066 201H956L900 247H800"/><animate attributeName="opacity" values="0;.75;.75;0" keyTimes="0;.1;.88;1" dur="10s" begin="-5s" repeatCount="indefinite"/></circle>
-    </g>
-    <g fill="#9CCAFF">
-      <circle cx="931" cy="120" r="2.5"><animate attributeName="opacity" values=".3;.85;.3" dur="4.5s" repeatCount="indefinite"/></circle>
-      <circle cx="1066" cy="201" r="2.5"><animate attributeName="opacity" values=".8;.28;.8" dur="5.5s" repeatCount="indefinite"/></circle>
-      <circle cx="1172" cy="83" r="2"><animate attributeName="opacity" values=".25;.8;.25" dur="4s" repeatCount="indefinite"/></circle>
+    <g fill="#A7CEFF" filter="url(#softGlow)">
+      <circle r="3"><animateMotion dur="9s" repeatCount="indefinite" path="M746 102H855L925 160H1036L1104 104H1180"/><animate attributeName="opacity" values="0;.85;.85;0" keyTimes="0;.1;.88;1" dur="9s" repeatCount="indefinite"/></circle>
+      <circle r="3"><animateMotion dur="10s" begin="-5s" repeatCount="indefinite" path="M1180 216H1104L1036 160H925L855 218H746"/><animate attributeName="opacity" values="0;.75;.75;0" keyTimes="0;.1;.88;1" dur="10s" begin="-5s" repeatCount="indefinite"/></circle>
     </g>
 
-    <path d="M76 69V258" stroke="#6DAAF8" stroke-opacity=".76" stroke-width="2"/>
-    <text x="104" y="143" fill="#F5F7FB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="650" letter-spacing="-1.8">Rodrigo Tabaldi</text>
-    <text x="106" y="181" fill="#B6C4D5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing=".15">Software Engineer  |  Backend Developer  |  .NET &amp; Full Stack</text>
-    <rect x="106" y="203" width="544" height="1.2" fill="url(#accent)"/>
-    <text x="106" y="235" fill="#A6B5C8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing=".2">C#  ·  .NET  ·  ASP.NET Core  ·  Python  ·  React  ·  TypeScript</text>
-    <text x="106" y="261" fill="#A6B5C8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing=".2">PostgreSQL  ·  Docker  ·  Git</text>
+    <path d="M76 69V258" stroke="#6DAAF8" stroke-opacity=".82" stroke-width="2"/>
+    <text x="104" y="143" fill="#F5F7FB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.8">Rodrigo Tabaldi</text>
+    <text x="106" y="182" fill="#C2D0E0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="550" letter-spacing=".15">Software Engineer  |  Backend Developer  |  .NET &amp; Full Stack</text>
+    <rect x="106" y="204" width="560" height="1.5" fill="url(#accent)"/>
+    <text x="106" y="237" fill="#B8C7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="550" letter-spacing=".1">C#  ·  .NET  ·  ASP.NET Core  ·  Python  ·  React  ·  TypeScript</text>
+    <text x="106" y="264" fill="#B8C7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="550" letter-spacing=".1">PostgreSQL  ·  Docker  ·  Git</text>
     <path d="M0 1H1200M0 319H1200" stroke="#A6BCD5" stroke-opacity=".12"/>
   </g>
 </svg>
