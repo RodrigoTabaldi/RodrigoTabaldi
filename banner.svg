@@ -1,97 +1,81 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Rodrigo Tabaldi — Software Engineering Student and Backend Developer</title>
+  <desc id="description">Animated dark professional banner with a subtle network diagram and software technologies.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a0e1a"/>
-      <stop offset="45%" stop-color="#0d1b3a"/>
-      <stop offset="100%" stop-color="#0a0e1a"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090D14"/>
+      <stop offset="1" stop-color="#101927"/>
     </linearGradient>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#6366f1"/>
+    <linearGradient id="accent" x1="690" y1="70" x2="1190" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity=".08"/>
+      <stop offset=".55" stop-color="#60A5FA" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#93C5FD" stop-opacity=".15"/>
     </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#93c5fd"/>
+    <linearGradient id="rule" x1="80" y1="0" x2="570" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glowbg" cx="30%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="matrix(465 0 0 205 966 148)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <clipPath id="clip"><rect width="1280" height="320" rx="18"/></clipPath>
   </defs>
 
-  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="20" fill="url(#glowbg)"/>
-  <rect x="1.5" y="1.5" width="1197" height="317" rx="18.5" fill="none" stroke="url(#blue)" stroke-width="1.5" opacity="0.55"/>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="320" fill="url(#background)"/>
+    <rect width="1280" height="320" fill="url(#ambient)"/>
+    <rect x="682" y="0" width="598" height="320" fill="url(#grid)" opacity=".7"/>
 
-  <!-- particulas / estrelas -->
-  <g fill="#60a5fa">
-    <circle cx="180" cy="55" r="1.6" opacity="0.6"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="320" cy="270" r="1.4" opacity="0.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="640" cy="45" r="1.8" opacity="0.7"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="1080" cy="250" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
-    <circle cx="1130" cy="70" r="1.3" opacity="0.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.2s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- grid hexagonal decorativo direita -->
-  <g opacity="0.5" transform="translate(830,70)">
-    <g fill="none" stroke="url(#blue)" stroke-width="1.5">
-      <rect x="0"   y="0"  width="20" height="20" rx="4" opacity="0.3"/>
-      <rect x="28"  y="0"  width="20" height="20" rx="4" opacity="0.6"/>
-      <rect x="56"  y="0"  width="20" height="20" rx="4" opacity="0.9"/>
-      <rect x="84"  y="0"  width="20" height="20" rx="4" opacity="0.4"/>
-      <rect x="112" y="0"  width="20" height="20" rx="4" opacity="0.7"/>
-      <rect x="0"   y="28" width="20" height="20" rx="4" opacity="0.7"/>
-      <rect x="28"  y="28" width="20" height="20" rx="4" opacity="1"/>
-      <rect x="56"  y="28" width="20" height="20" rx="4" opacity="0.5"/>
-      <rect x="84"  y="28" width="20" height="20" rx="4" opacity="0.8"/>
-      <rect x="112" y="28" width="20" height="20" rx="4" opacity="0.3"/>
-      <rect x="0"   y="56" width="20" height="20" rx="4" opacity="0.4"/>
-      <rect x="28"  y="56" width="20" height="20" rx="4" opacity="0.6"/>
-      <rect x="56"  y="56" width="20" height="20" rx="4" opacity="0.9"/>
-      <rect x="84"  y="56" width="20" height="20" rx="4" opacity="0.5"/>
-      <rect x="112" y="56" width="20" height="20" rx="4" opacity="0.7"/>
-      <rect x="0"   y="84" width="20" height="20" rx="4" opacity="0.6"/>
-      <rect x="28"  y="84" width="20" height="20" rx="4" opacity="0.9"/>
-      <rect x="56"  y="84" width="20" height="20" rx="4" opacity="0.4"/>
-      <rect x="84"  y="84" width="20" height="20" rx="4" opacity="0.8"/>
-      <rect x="112" y="84" width="20" height="20" rx="4" opacity="0.5"/>
-      <animate attributeName="opacity" values="0.5;0.85;0.5" dur="5s" repeatCount="indefinite"/>
+    <!-- Quiet network diagram in the right half keeps the copy clear. -->
+    <g stroke="url(#accent)" stroke-width="1.25">
+      <path d="M742 85H840L900 135H1003L1060 88H1178"/>
+      <path d="M793 230H886L946 184H1050L1110 235H1210"/>
+      <path d="M840 85V142L886 184V230"/>
+      <path d="M1003 135V184"/>
+      <path d="M1060 88V145L1050 184"/>
+      <path d="M1178 88V164L1210 192V235"/>
+      <path d="M742 85V160L793 210V230"/>
+      <path d="M900 135L946 184" stroke-dasharray="3 7"/>
     </g>
+    <g fill="#0D1726" stroke="#60A5FA" stroke-opacity=".68" stroke-width="1.4">
+      <rect x="733" y="76" width="18" height="18" rx="5"/>
+      <rect x="831" y="76" width="18" height="18" rx="5"/>
+      <circle cx="900" cy="135" r="5"/><rect x="994" y="126" width="18" height="18" rx="5"/>
+      <circle cx="1060" cy="88" r="5"/><circle cx="1178" cy="88" r="5"/>
+      <circle cx="793" cy="230" r="5"/><rect x="878" y="221" width="18" height="18" rx="5"/>
+      <circle cx="946" cy="184" r="5"/><circle cx="1050" cy="184" r="5"/>
+      <rect x="1101" y="226" width="18" height="18" rx="5"/><circle cx="1210" cy="235" r="5"/>
+    </g>
+    <g fill="#93C5FD" filter="url(#glow)">
+      <circle r="2.6">
+        <animateMotion dur="8s" repeatCount="indefinite" path="M742 85H840L900 135H1003L1060 88H1178"/>
+        <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.08;.82;1" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="2.4">
+        <animateMotion dur="10s" begin="-4s" repeatCount="indefinite" path="M1210 235H1110L1050 184H946L886 230H793"/>
+        <animate attributeName="opacity" values="0;.8;.8;0" keyTimes="0;.08;.82;1" dur="10s" begin="-4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g fill="#93C5FD">
+      <circle cx="900" cy="135" r="3"><animate attributeName="opacity" values=".35;.9;.35" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1050" cy="184" r="3"><animate attributeName="opacity" values=".8;.3;.8" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="1178" cy="88" r="2.5"><animate attributeName="opacity" values=".25;.85;.25" dur="4.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <path d="M80 65V255" stroke="#60A5FA" stroke-opacity=".62" stroke-width="2"/>
+    <text x="104" y="135" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="47" font-weight="650" letter-spacing="-1.7">Rodrigo Tabaldi</text>
+    <text x="105" y="174" fill="#AFC0D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="450" letter-spacing=".2">Software Engineering Student  |  Backend Developer  |  .NET &amp; Full Stack</text>
+    <rect x="105" y="196" width="450" height="1" fill="url(#rule)"/>
+    <text x="105" y="226" fill="#8294AA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing=".25">C#  ·  .NET  ·  ASP.NET Core  ·  Python  ·  React  ·  TypeScript</text>
+    <text x="105" y="250" fill="#8294AA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing=".25">PostgreSQL  ·  Docker  ·  Git</text>
+    <path d="M0 1H1280" stroke="#94A3B8" stroke-opacity=".13"/>
+    <path d="M0 319H1280" stroke="#94A3B8" stroke-opacity=".13"/>
   </g>
-
-  <!-- terminal dots -->
-  <g transform="translate(75,80)">
-    <circle cx="0"  cy="0" r="6.5" fill="#ff5f56"/>
-    <circle cx="22" cy="0" r="6.5" fill="#ffbd2e"/>
-    <circle cx="44" cy="0" r="6.5" fill="#27c93f"/>
-  </g>
-
-  <text x="75" y="150" font-family="'JetBrains Mono','Fira Code',monospace" font-size="46" font-weight="800" fill="url(#name)" filter="url(#soft)">
-    Rodrigo Tabaldi
-  </text>
-
-  <text x="76" y="196" font-family="'JetBrains Mono',monospace" font-size="21" font-weight="600" fill="#60a5fa">
-    <tspan fill="#475569">&gt; </tspan>Full Stack Developer<tspan fill="#475569"> · Rondonópolis-MT</tspan>
-  </text>
-
-  <text x="76" y="236" font-family="'JetBrains Mono',monospace" font-size="16.5" fill="#7dd3fc">
-    C# · .NET · React · TypeScript · SQL Server · Python
-    <animate attributeName="opacity" values="0.65;1;0.65" dur="3s" repeatCount="indefinite"/>
-  </text>
-
-  <!-- cursor -->
-  <rect x="76" y="252" width="13" height="22" rx="2" fill="#38bdf8">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- barra animada base -->
-  <rect x="76" y="288" width="0" height="3" rx="1.5" fill="url(#blue)">
-    <animate attributeName="width" values="0;680;0" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="7s" repeatCount="indefinite"/>
-  </rect>
 </svg>
