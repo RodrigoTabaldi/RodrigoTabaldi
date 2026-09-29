@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title description">
-  <title id="title">Rodrigo Tabaldi — Software Engineer, Backend Developer, .NET &amp; Full Stack</title>
+  <title id="title">Rodrigo Tabaldi — Software Engineer | Backend &amp; Full Stack</title>
   <desc id="description">A clean dark animated profile banner with readable text and subtle blue software network lines.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
@@ -44,10 +44,10 @@
 
     <path d="M76 69V258" stroke="#6DAAF8" stroke-opacity=".82" stroke-width="2"/>
     <text x="104" y="143" fill="#F5F7FB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.8">Rodrigo Tabaldi</text>
-    <text x="106" y="182" fill="#C2D0E0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="550" letter-spacing=".15">Software Engineer  |  Backend Developer  |  .NET &amp; Full Stack</text>
+    <text x="106" y="182" fill="#C2D0E0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="550" letter-spacing=".15">Software Engineer  |  Backend &amp; Full-Stack Development</text>
     <rect x="106" y="204" width="560" height="1.5" fill="url(#accent)"/>
-    <text x="106" y="237" fill="#B8C7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="550" letter-spacing=".1">C#  ·  .NET  ·  ASP.NET Core  ·  Python  ·  React  ·  TypeScript</text>
-    <text x="106" y="264" fill="#B8C7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="550" letter-spacing=".1">PostgreSQL  ·  Docker  ·  Git</text>
+    <text x="106" y="237" fill="#B8C7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="550" letter-spacing=".1">APIs  |  System Integration  |  Web Applications</text>
+    <text x="106" y="264" fill="#B8C7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="550" letter-spacing=".1">Clear, Reliable &amp; Maintainable Software</text>
     <path d="M0 1H1200M0 319H1200" stroke="#A6BCD5" stroke-opacity=".12"/>
   </g>
 </svg>

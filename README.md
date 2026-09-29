@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.svg" alt="Rodrigo Tabaldi — Software Engineer | Backend & Full Stack | .NET" width="100%" />
+  <img src="banner.svg" alt="Rodrigo Tabaldi — Software Engineer | Backend & Full Stack" width="100%" />
 </div>
 
 <div align="center">
@@ -8,15 +8,19 @@
 
 ## Português
 
-**Engenheiro de Software · Backend & Full Stack · C# / .NET**
+**Engenheiro de Software | Backend, APIs e Full Stack**
 
-Engenheiro de software focado em backend e APIs com C#, .NET e ASP.NET Core. Também desenvolvo aplicações full stack com React, TypeScript e PostgreSQL.
+Desenvolvo APIs e aplicações web, conectando necessidades do produto a soluções claras, confiáveis e fáceis de evoluir. Gosto de atuar da definição da solução à integração entre sistemas, sempre com foco em qualidade e em quem vai usar o software.
+
+Explore meus projetos e conheça meu trabalho.
 
 ## English
 
-**Software Engineer · Backend & Full Stack · C# / .NET**
+**Software Engineer | Backend, APIs & Full-Stack Development**
 
-Software engineer focused on backend development and APIs with C#, .NET, and ASP.NET Core. I also build full stack applications with React, TypeScript, and PostgreSQL.
+I build APIs and web applications, turning product needs into clear, reliable, and maintainable software. I enjoy working from solution design through system integration, with a focus on quality and the people who use the product.
+
+Explore my projects and see what I’ve built.
 
 ## Tecnologias | Tech Stack
 
