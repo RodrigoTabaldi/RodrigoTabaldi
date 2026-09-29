@@ -10,13 +10,13 @@
 
 **Engenheiro de Software · Backend & Full Stack · C# / .NET**
 
-Desenvolvo APIs e serviços backend com C#, .NET e ASP.NET Core. Também construo aplicações full stack com React e TypeScript, integradas a bancos de dados como PostgreSQL. Meu foco é escrever código claro e criar sistemas confiáveis, bem estruturados e fáceis de manter.
+Engenheiro de software focado em backend e APIs com C#, .NET e ASP.NET Core. Também desenvolvo aplicações full stack com React, TypeScript e PostgreSQL.
 
 ## English
 
 **Software Engineer · Backend & Full Stack · C# / .NET**
 
-I build backend APIs and services with C#, .NET, and ASP.NET Core. I also develop full stack applications with React and TypeScript, connected to databases such as PostgreSQL. I focus on clear code and reliable, well-structured systems that are easy to maintain.
+Software engineer focused on backend development and APIs with C#, .NET, and ASP.NET Core. I also build full stack applications with React, TypeScript, and PostgreSQL.
 
 ## Tecnologias | Tech Stack
 

@@ -1,79 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-labelledby="title description">
-  <title id="title">Rodrigo Tabaldi | Software Engineer | Backend &amp; Full Stack | .NET</title>
-  <desc id="description">A dark, minimal animated software engineering banner with a refined API to services to data flow.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Rodrigo Tabaldi — Software Engineer, Backend Developer, .NET &amp; Full Stack</title>
+  <desc id="description">A clean dark animated profile banner with readable text and subtle blue software network lines.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080D15"/><stop offset=".55" stop-color="#0A111C"/><stop offset="1" stop-color="#101A29"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080C13"/><stop offset=".62" stop-color="#0A111B"/><stop offset="1" stop-color="#101C2C"/>
     </linearGradient>
-    <linearGradient id="panel" x1="720" y1="56" x2="1220" y2="267" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#101B2A" stop-opacity=".28"/><stop offset="1" stop-color="#13253A" stop-opacity=".44"/>
-    </linearGradient>
-    <linearGradient id="blue" x1="80" y1="0" x2="630" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7CB7FF"/><stop offset=".68" stop-color="#4C91E8" stop-opacity=".4"/><stop offset="1" stop-color="#4C91E8" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="flow" x1="840" y1="130" x2="1135" y2="130" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6CA8F5" stop-opacity=".16"/><stop offset=".5" stop-color="#83B9FF" stop-opacity=".64"/><stop offset="1" stop-color="#6CA8F5" stop-opacity=".16"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(460 0 0 220 1040 150)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#245A9F" stop-opacity=".21"/><stop offset="1" stop-color="#245A9F" stop-opacity="0"/>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientTransform="matrix(435 0 0 215 1000 154)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E4B82" stop-opacity=".22"/><stop offset="1" stop-color="#1E4B82" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#9BB7D6" stroke-opacity=".045"/>
+    <linearGradient id="accent" x1="76" y1="0" x2="642" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76B1FF"/><stop offset=".66" stop-color="#4389E5" stop-opacity=".42"/><stop offset="1" stop-color="#4389E5" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#A8BEDA" stroke-opacity=".04"/>
     </pattern>
-    <filter id="glimmer" x="-400%" y="-400%" width="900%" height="900%">
+    <filter id="softGlow" x="-400%" y="-400%" width="900%" height="900%">
       <feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="clip"><rect width="1280" height="320" rx="16"/></clipPath>
+    <clipPath id="clip"><rect width="1200" height="320" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#clip)">
-    <rect width="1280" height="320" fill="url(#background)"/>
-    <rect width="1280" height="320" fill="url(#glow)"/>
-    <path d="M704 0H1280V320H704Z" fill="url(#grid)"/>
-    <rect x="710.5" y="44.5" width="527" height="231" rx="18" fill="url(#panel)" stroke="#91B7E6" stroke-opacity=".12"/>
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <rect width="1200" height="320" fill="url(#blueGlow)"/>
+    <path d="M725 0H1200V320H725Z" fill="url(#grid)"/>
 
-    <!-- Restrained API-to-data flow diagram. -->
-    <text x="744" y="77" fill="#8197B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="1.7">SOFTWARE ARCHITECTURE</text>
-    <path d="M875 143H923M1062 143H1110" stroke="url(#flow)" stroke-width="1.5"/>
-    <path d="M813 112V98H993V112M993 174V211H1171V174" stroke="#6E9DD3" stroke-opacity=".19" stroke-width="1"/>
-    <g fill="#0B1420" stroke="#78A8E7" stroke-opacity=".36">
-      <rect x="744" y="111" width="131" height="64" rx="10"/>
-      <rect x="923" y="111" width="139" height="64" rx="10"/>
-      <rect x="1110" y="111" width="101" height="64" rx="10"/>
+    <!-- Quiet network details stay behind the type. -->
+    <g stroke="#6EA8F0" stroke-opacity=".23" stroke-width="1.2">
+      <path d="M776 78H882L931 120H1042L1092 83H1172"/>
+      <path d="M800 247H900L956 201H1066L1120 247H1180"/>
+      <path d="M882 78V155L900 173V247M1042 120V166L1066 183V201M1172 83V162L1180 177V247"/>
+      <path d="M931 120L956 201" stroke-dasharray="2 7"/>
     </g>
-    <g fill="#80B5FF">
-      <circle cx="761" cy="130" r="3"/><circle cx="940" cy="130" r="3"/><circle cx="1127" cy="130" r="3"/>
-      <circle cx="813" cy="98" r="2"/><circle cx="1171" cy="211" r="2"/>
+    <g fill="#0A1421" stroke="#80B5F6" stroke-opacity=".48" stroke-width="1.3">
+      <circle cx="776" cy="78" r="4"/><circle cx="882" cy="78" r="4"/>
+      <circle cx="931" cy="120" r="4"/><circle cx="1042" cy="120" r="4"/>
+      <circle cx="1092" cy="83" r="4"/><circle cx="1172" cy="83" r="4"/>
+      <circle cx="800" cy="247" r="4"/><circle cx="900" cy="247" r="4"/>
+      <circle cx="956" cy="201" r="4"/><circle cx="1066" cy="201" r="4"/>
+      <circle cx="1120" cy="247" r="4"/><circle cx="1180" cy="247" r="4"/>
     </g>
-    <g fill="#E4EDF8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" letter-spacing=".8">
-      <text x="772" y="134">REST API</text>
-      <text x="951" y="134">APPLICATION</text>
-      <text x="1138" y="134">DATA</text>
+    <g fill="#9CCAFF" filter="url(#softGlow)">
+      <circle r="2.4"><animateMotion dur="9s" repeatCount="indefinite" path="M776 78H882L931 120H1042L1092 83H1172"/><animate attributeName="opacity" values="0;.85;.85;0" keyTimes="0;.1;.88;1" dur="9s" repeatCount="indefinite"/></circle>
+      <circle r="2.2"><animateMotion dur="10s" begin="-5s" repeatCount="indefinite" path="M1180 247H1120L1066 201H956L900 247H800"/><animate attributeName="opacity" values="0;.75;.75;0" keyTimes="0;.1;.88;1" dur="10s" begin="-5s" repeatCount="indefinite"/></circle>
     </g>
-    <g fill="#8EA3BC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing=".75">
-      <text x="760" y="155">ASP.NET CORE</text>
-      <text x="940" y="155">.NET SERVICES</text>
-      <text x="1127" y="155">POSTGRESQL</text>
-      <text x="744" y="234">BACKEND SYSTEMS</text>
-      <text x="1101" y="234">CLEAN · CONNECTED · RELIABLE</text>
-    </g>
-    <g fill="#8BC0FF" filter="url(#glimmer)">
-      <circle r="2.5"><animateMotion dur="4.8s" repeatCount="indefinite" path="M875 143H923"/><animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.12;.85;1" dur="4.8s" repeatCount="indefinite"/></circle>
-      <circle r="2.5"><animateMotion dur="5.4s" begin="-2.7s" repeatCount="indefinite" path="M1062 143H1110"/><animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.12;.85;1" dur="5.4s" begin="-2.7s" repeatCount="indefinite"/></circle>
-      <circle r="2"><animateMotion dur="5.6s" begin="-2.8s" repeatCount="indefinite" path="M923 143H875"/><animate attributeName="opacity" values="0;.65;.65;0" keyTimes="0;.12;.85;1" dur="5.6s" begin="-2.8s" repeatCount="indefinite"/></circle>
-    </g>
-    <g fill="#7DADE7">
-      <circle cx="993" cy="98" r="1.8"><animate attributeName="opacity" values=".22;.8;.22" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="1171" cy="211" r="1.8"><animate attributeName="opacity" values=".75;.24;.75" dur="6s" repeatCount="indefinite"/></circle>
+    <g fill="#9CCAFF">
+      <circle cx="931" cy="120" r="2.5"><animate attributeName="opacity" values=".3;.85;.3" dur="4.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1066" cy="201" r="2.5"><animate attributeName="opacity" values=".8;.28;.8" dur="5.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1172" cy="83" r="2"><animate attributeName="opacity" values=".25;.8;.25" dur="4s" repeatCount="indefinite"/></circle>
     </g>
 
-    <path d="M80 72V251" stroke="#6AA8F7" stroke-opacity=".78" stroke-width="2"/>
-    <circle cx="80" cy="72" r="3" fill="#7AB5FF"/>
-    <text x="105" y="83" fill="#8FA6C1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2.1">SOFTWARE ENGINEERING</text>
-    <text x="101" y="145" fill="#F4F7FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="49" font-weight="650" letter-spacing="-1.9">Rodrigo Tabaldi</text>
-    <text x="106" y="178" fill="#AEBED0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="500" letter-spacing=".28">Backend Developer  ·  Full Stack  ·  .NET</text>
-    <rect x="106" y="199" width="506" height="1" fill="url(#blue)"/>
-    <text x="106" y="229" fill="#9AACC1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing=".2">C#  ·  .NET  ·  ASP.NET Core  ·  PostgreSQL</text>
-    <text x="106" y="251" fill="#7489A2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="450" letter-spacing=".2">Python  ·  React  ·  TypeScript  ·  Docker  ·  Git</text>
-    <path d="M0 1H1280M0 319H1280" stroke="#A6BCD5" stroke-opacity=".1"/>
+    <path d="M76 69V258" stroke="#6DAAF8" stroke-opacity=".76" stroke-width="2"/>
+    <text x="104" y="143" fill="#F5F7FB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="650" letter-spacing="-1.8">Rodrigo Tabaldi</text>
+    <text x="106" y="181" fill="#B6C4D5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing=".15">Software Engineer  |  Backend Developer  |  .NET &amp; Full Stack</text>
+    <rect x="106" y="203" width="544" height="1.2" fill="url(#accent)"/>
+    <text x="106" y="235" fill="#A6B5C8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing=".2">C#  ·  .NET  ·  ASP.NET Core  ·  Python  ·  React  ·  TypeScript</text>
+    <text x="106" y="261" fill="#A6B5C8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing=".2">PostgreSQL  ·  Docker  ·  Git</text>
+    <path d="M0 1H1200M0 319H1200" stroke="#A6BCD5" stroke-opacity=".12"/>
   </g>
 </svg>
