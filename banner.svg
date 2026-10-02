@@ -48,6 +48,7 @@
     <rect x="106" y="204" width="560" height="1.5" fill="url(#accent)"/>
     <text x="106" y="237" fill="#B8C7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="550" letter-spacing=".1">APIs  |  System Integration  |  Web Applications</text>
     <text x="106" y="264" fill="#B8C7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="550" letter-spacing=".1">Clear, Reliable &amp; Maintainable Software</text>
+    <text x="106" y="293" fill="#76B1FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="550" letter-spacing=".1">Node.js  |  NestJS  |  Next.js</text>
     <path d="M0 1H1200M0 319H1200" stroke="#A6BCD5" stroke-opacity=".12"/>
   </g>
 </svg>
